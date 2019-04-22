@@ -6,3 +6,22 @@ body {
 a {
   color: #00B7FF;
 }
+
+.main-img {
+  height: 100vh;
+  padding:100px 0px 200px 0px;
+}
+
+.header-title {
+  margin: 0 auto;
+}
+
+.main-img h1 {
+  margin-bottom: 20px;
+}
+
+.main-img div {
+  display: flex;
+  justify-content: space-between;
+}
+
