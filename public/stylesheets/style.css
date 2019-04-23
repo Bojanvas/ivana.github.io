@@ -167,3 +167,33 @@ footer a:hover {
   text-decoration: none;
 }
 /* footer end */
+
+@media screen and (max-width: 767px) {
+  .main-img h5 {
+    font-size: 30px;
+  }
+
+  .main-img p {
+    font-size: 28px;
+  }
+
+  .section-2 h4, .section-2 p {
+    font-size: 30px;
+  }
+  .small-text {
+    font-size: 24px;
+  }
+
+  .portfolio-container {
+    display: block;
+  }
+  
+  .portfolio-box {
+    width: 100%;
+  }
+
+  .footer-icons {
+    font-size: 22px;
+  }
+
+}
