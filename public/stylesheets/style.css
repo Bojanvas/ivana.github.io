@@ -1,27 +1,139 @@
+@font-face { font-family: montserrat-light; 
+  src: url('/Montserrat/Montserrat-Light.ttf'); 
+} 
+@font-face { font-family: montserrat-black; 
+  src: url('/Montserrat/Montserrat-Black.ttf'); 
+} 
+@font-face { font-family: montserrat-medium; 
+  src: url('/Montserrat/Montserrat-Medium.ttf'); 
+} 
+
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font:"montserrat-medium", Helvetica, Arial, sans-serif;
 }
 
 a {
   color: #00B7FF;
 }
-
+/* header start */
 .main-img {
-  height: 100vh;
-  padding:100px 0px 200px 0px;
+  background-image: url('/images/header.png');
+  background-position: center;
+  background-size: cover;
+  padding:60px 0px 100px 0px;
+}
+
+.main-img h4 {
+  margin-top: 40px;
+  color: #e6e6e6;
+  font-family: 'montserrat-light';
+  font-size: 34px;
+  border-bottom: 5px solid #AED036;
+}
+
+.main-img h5 {
+  margin-top: 120px;
+  color: #e6e6e6;
+  font-family: 'montserrat-medium';
+  font-size: 70px;
+  text-align: center;
+}
+
+.main-img p {
+  margin-top: 10px;
+  color: #e6e6e6;
+  font-family: 'montserrat-light';
+  font-size: 32px;
+  text-align: center;
 }
 
 .header-title {
   margin: 0 auto;
 }
 
-.main-img h1 {
-  margin-bottom: 20px;
-}
-
 .main-img div {
   display: flex;
   justify-content: space-between;
 }
+/* header end */
+.section-1,
+.section-2 {
+  padding:60px 0px 100px 0px;
+}
+/* section 1 start */
+.section-1 h3 {
+  font-family: 'montserrat-medium';
+  font-size: 50px;
+  color: #1a1a1a;
+  text-align: center;
+  margin-bottom: 40px;
+}
 
+.section-1 h3 span {
+  border-bottom: 5px solid #AED036;
+}
+
+.portfolio-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.portfolio-box {
+  margin-bottom: 15px;
+  height: 360px;
+  width: 360px;
+  background-color: #ccc;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+/* section 1 end */
+
+/* section 2 start */
+.section-2  {
+  background-color: #ccc;
+  color: #1a1a1a;
+}
+
+.section-2 h3 {
+  font-family: 'montserrat-medium';
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+.section-2 h4,
+.section-2 p {
+  font-family: 'montserrat-light';
+  font-size: 40px;
+}
+
+.small-text {
+  font-size: 30px;
+}
+
+.portfolio-info {
+  margin-bottom: 20px;
+}
+
+/* section 2 end */
+
+/* footer start */
+footer {
+  background-image: url('/images/header.png');
+  background-position: center;
+  background-size: cover;
+  padding:60px 0px 100px 0px;
+  color: #e6e6e6;
+  font-family: 'montserrat-light';
+}
+
+footer h3 {
+  font-size: 50px;
+  margin: 40px 0px;
+}
+
+.footer-info {
+  margin-bottom: 30px;
+}
+/* footer end */
