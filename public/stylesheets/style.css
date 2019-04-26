@@ -48,6 +48,10 @@ body {
   margin: 0 auto;
 }
 
+.header-title img {
+  max-height: 90px;
+}
+
 .main-img div {
   display: flex;
   justify-content: space-between;
