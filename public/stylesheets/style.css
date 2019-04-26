@@ -17,7 +17,7 @@ body {
   background-image: url('/images/header.png');
   background-position: center;
   background-size: cover;
-  padding:60px 0px 100px 0px;
+  padding:80px 0px 150px 0px;
 }
 
 .main-img h4 {
@@ -29,7 +29,7 @@ body {
 }
 
 .main-img h5 {
-  margin-top: 120px;
+  margin-top: 140px;
   color: #e6e6e6;
   font-family: 'montserrat-medium';
   font-size: 70px;
@@ -37,7 +37,7 @@ body {
 }
 
 .main-img p {
-  margin-top: 10px;
+  margin-top: 20px;
   color: #e6e6e6;
   font-family: 'montserrat-light';
   font-size: 32px;
