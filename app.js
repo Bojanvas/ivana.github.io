@@ -24,6 +24,7 @@ app.use('/users', usersRouter);
 
 // Handle 404
 app.use(function(req, res) {
+  res.status(404);
   res.sendFile('404.html', {root : __dirname + '/routes/views'});
 });
 // catch 404 and forward to error handler

@@ -182,6 +182,8 @@ body {
 
 /* footer start */
 footer {
+  position: relative;
+  z-index: 9999;
   background-image: url('/images/header.png');
   background-position: center;
   background-size: cover;
@@ -222,6 +224,76 @@ footer a:hover {
 }
 /* footer end */
 
+/* clients start  */
+.buttons {
+  position: relative;
+}
+
+.buttons > .button {
+  font-family: 'montserrat-light';
+  border: 2px solid #1a1a1a;
+  padding: 10px 30px;
+  cursor: pointer;
+  color: #1a1a1a;
+  background-color: #f2f2f2;
+}
+
+.buttons > .button:after {
+  content: " ";
+  width: 104%;
+  border-bottom-style: solid;
+  border-bottom-width: 8px;
+  border-bottom-color: #AED036;
+  display: inherit;
+  position: absolute;
+  bottom: -10px;
+  left: -2px;
+}
+
+.button.left {
+  position: fixed;
+  top: 50%;
+  left: 10%;
+}
+.button.right {
+  position: fixed;
+  top: 50%;
+  right: 10%;
+}
+
+.client-header div{
+  display: block;
+}
+
+.client-header {
+  padding: 20px 0px 20px 0px;
+}
+
+.buttons > .button.color-1:after {
+  border-bottom-color:#5FD5B1;
+}
+
+.buttons > .button.color-2:after {
+  border-bottom-color :#41AAE1;
+}
+
+.buttons > .button.color-3:after {
+  border-bottom-color: #AE41BE;
+}
+
+.buttons > .button.color-4:after {
+  border-bottom-color: #EC383D;
+}
+  
+.buttons > .button.color-5:after {
+  border-bottom-color: #232253;
+}
+  
+.buttons > .button.color-6:after {
+    
+}
+
+/* clients end */
 @media screen and (max-width: 767px) {
   .main-img h5 {
     font-size: 30px;
