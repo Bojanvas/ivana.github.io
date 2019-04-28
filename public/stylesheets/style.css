@@ -227,9 +227,11 @@ footer a:hover {
 /* clients start  */
 .buttons {
   position: relative;
+  height: 80px;
 }
 
 .buttons > .button {
+  width: 100px;
   font-family: 'montserrat-light';
   border: 2px solid #1a1a1a;
   padding: 10px 30px;
@@ -240,7 +242,7 @@ footer a:hover {
 
 .buttons > .button:after {
   content: " ";
-  width: 104%;
+  width: 100px;
   border-bottom-style: solid;
   border-bottom-width: 8px;
   border-bottom-color: #AED036;
@@ -251,13 +253,13 @@ footer a:hover {
 }
 
 .button.left {
-  position: fixed;
-  top: 50%;
+  position: absolute;
+  top: 0;
   left: 10%;
 }
 .button.right {
-  position: fixed;
-  top: 50%;
+  position: absolute;
+  top: 0;
   right: 10%;
 }
 
@@ -320,6 +322,28 @@ footer a:hover {
 
   .footer-icons {
     font-size: 22px;
+  }
+
+  .button.left {
+    position: relative;
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    top: 0;
+    left: 0px;
+  }
+
+  .button.right {
+    position: relative;
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    top: 0;
+    right: 0;
+  }
+
+  .buttons > .button:after {
+    width: calc(100% + 4px);
   }
 
 }

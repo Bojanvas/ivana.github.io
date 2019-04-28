@@ -8,12 +8,11 @@ block content
             a(href='/')
               img(src='images/logo_1.svg', alt='logo')
     .container(style='position:relative;')
+      img.img-fluid(src=path, alt='client')
       .buttons
-        if prev > 0
-            a.button.left(class='color-'+id)(href='client-'+prev) Prev
+        a.button.left(class='color-'+id)(href='/') Back
         if next < 7  
             a.button.right(class='color-'+id)(href='client-'+next) Next
-      img.img-fluid(src=path, alt='client')
     footer
       .container
         .footer-text
